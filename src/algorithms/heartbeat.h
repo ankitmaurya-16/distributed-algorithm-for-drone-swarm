@@ -55,7 +55,7 @@ public:
     void removeNode(int nodeId);
     bool isNodeAlive(int nodeId);
     std::vector<int> getAliveNodes();
-    std::vector<int> getFailedNode();
+    std::vector<int> getFailedNodes();
 
     std::vector<int> checkFailedNodes();
     void processHeartbeats();
